@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  margin-top: 40px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.car {
+  width: 100px;
+  transform: rotateY(0deg);
+  fill: #61dafb;
+  margin-bottom: -5px;
+  position: relative;
+}
+.car-component {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.car-component__image-block {
+  padding: 5px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dashed #282c34;
+  width: 100%;
+  box-sizing: border-box;
+}
+.image-block__flag {
+  margin-right: 100px;
+}
+.create-block {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.create-block__error {
+  color: red;
+}
+.page-block {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+  width: 350px;
+}
+.modal-window {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-window__conteiner {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.winner-text {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+  color: rgb(65, 4, 65);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: white;
+}
+.winners-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 700px;
+  justify-content: space-between;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.winners-item__text {
+  width: 80px;
+  text-align: center;
+}
+.engineSmoke {
+  position: absolute;
+  right: 65px;
+  top: -20px;
+  animation: smokeAnimo 2s infinite linear;
+}
+
+.btn {
+  padding: 2px 20px;
+  width: 100px;
+  background-color: lightcyan;
+  border-radius: 10px;
+  border: 2px black;
+  margin-right: 5px;
+}
+.btn:active {
+  background-color: lightskyblue;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #61dafb;
+}
+.create-block__input {
+  border-radius: 10px;
+  border: none;
+  padding: 2px 10px;
+}
+.garage-text {
+  font-weight: bold;
+  justify-self: left;
+  margin-right: 5px;
+}
+.btn-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1 px black;
+}
+.clicked {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.clicked:hover {
+  background-color: #61dafb;
+}
+.click:active {
+  background-color: aqua;
+}
+.winner-page {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
