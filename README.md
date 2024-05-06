@@ -235,4 +235,4 @@ Join - https://t.me/+KuU8bd4-gcYwOTUy
 - [Server Mock Repo](https://github.com/mikhama/async-race-api)
 - [Demo Video](https://youtu.be/aLjibbo9spo)
 
-> link for deployed project https://racesymbat.netlify.app/
+
