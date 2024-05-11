@@ -1,6 +1,7 @@
 > [!IMPORTANT]
 
 > 300 point
+>https://66388deb8606eb9515b38e5e--raceees-symbat.netlify.app/
 
 ## Welcome to the test task!
 
@@ -230,8 +231,7 @@ The entire array - that's the whole idea, to use query string parameters to requ
 We have created a Telegram channel to give you an opportunity to discuss the task, ask questions, etc.
 Join - https://t.me/+KuU8bd4-gcYwOTUy
 
->[!IMPORTANT]
->https://66388deb8606eb9515b38e5e--raceees-symbat.netlify.app/
+
 
 
 ## 📚 Resources
